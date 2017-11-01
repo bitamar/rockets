@@ -1,0 +1,26 @@
+.fire {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+}
+
+.rocket {
+  text-align: center;
+}
+
+.rocket .stripe {
+  font-size: 9px;
+  color: red;
+  margin-top: 2px;
+  transform: rotate(180deg);
+}
+
+.rocket .thrust .fire {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /*background: whitesmoke;
+  border-radius: 50%;*/
+}
